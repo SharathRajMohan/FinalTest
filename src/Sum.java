@@ -10,6 +10,6 @@ public class Sum extends Binary{
 
     @Override
     public String toString() {
-        return super.toString()+"Result (L+R): "+evaluate();
+        return super.toString()+"\nOperation"+getLeft().evaluate()+"+"+getRight().evaluate()+"\nResult: "+this.evaluate();
     }
 }
