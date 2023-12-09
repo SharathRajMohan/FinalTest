@@ -11,22 +11,16 @@ public abstract class Binary extends ArithmeticExp{
         return left;
     }
 
-    public void setLeft(ArithmeticExp left) {
-        this.left = left;
-    }
 
     public ArithmeticExp getRight() {
         return right;
     }
 
-    public void setRight(ArithmeticExp right) {
-        this.right = right;
-    }
 
 
     @Override
     public String toString() {
-        return "Binary{" +
+        return "Parent Class Binary{" +
                 "left=" + left.toString() +
                 ", right=" + right.toString() +
                 '}';
